@@ -1,0 +1,16 @@
+{
+  "name": "cron-expression-parser",
+  "version": "1.0.0",
+  "description": "a script which parses cron expressions into human readable date and time",
+  "main": "cron-parser.js",
+  "scripts": {
+    "sample": "node index.js \"*/15 0 1,15 * 1-5 /usr/bin/find\"",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "suryanshs",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
